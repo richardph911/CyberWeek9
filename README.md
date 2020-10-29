@@ -49,15 +49,18 @@ Description:
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference
+
+Description:
+- From the Find a Salesperson tab https://35.184.234.47/red/public/salesperson.php?id=X, if we enter id = 10 or 11 will display two people that they won't be found in the list. If we change id to other numbers such as 12, 13 then it will redirect to Find a Salesperson page.
+
+<img src="https://recordit.co/BSUs3L4ZLI.gif">
+
+Vulnerability #2: Cross-Site Request Forgery
 
 Description:
 
-<img src="red-vuln1.gif">
-
-Vulnerability #2: __________________
-
-Description:
+- When I trying to edit the information after changing the value of csrd_token, red section is still able to make a change, while the other two sections show "Error: invalid request" after I changed its csrd_token.
 
 <img src="red-vuln2.gif">
 
