@@ -17,11 +17,11 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 ## Blue
 
-Vulnerability #1: _____SQL INJECTION_____________
+Vulnerability #1: SQL INJECTION
 
 Description:
 
-<img src="https://recordit.co/PB2sNiIda3">
+<img src="https://recordit.co/PB2sNiIda3.gif">
 
 Vulnerability #2: __________________
 
