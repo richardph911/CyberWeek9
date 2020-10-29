@@ -64,7 +64,7 @@ Description:
 
 <img src="https://recordit.co/pMMsIbCo7c.gif">
 
-Bonus: Build on Objective #4 (XSS)
+Bonus Objective 2: Build on Objective #4 (XSS)
 
 Description:
 - a. By typing <script>document.location="https://www.facebook.com"</script> in Feedback textfield and going to the Feedback under the Staff Menu, it should direct us to the new url for example Facebook page that we provided in the script. 
