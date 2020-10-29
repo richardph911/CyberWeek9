@@ -20,7 +20,7 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 Vulnerability #1: SQL INJECTION
 
 Description:
-By editing the session id from the url in the form of ?id=' OR 1=1'--, the page redirects to "Database query failed". It means there is SQLI vulnerabiltiy occurred for both blue and red section. 
+- By editing the session id from the url in the form of ?id=' OR 1=1'--, the page redirects to "Database query failed". It means there is SQLI vulnerabiltiy occurred for both blue and red section. 
 
 <img src="https://recordit.co/PB2sNiIda3.gif">
 
@@ -33,17 +33,18 @@ Description:
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: Username Enumeration
 
 Description:
+- When I trying to login using an incorrect username, the inspect class shown "failed" compared to "failure" if using the correct username such as jmonroe99. Plus, the text message will be bold to the correct username account. 
+<img src="https://recordit.co/z8n3yqChZ5.gif">
 
-<img src="green-vuln1.gif">
-
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Scripting
 
 Description:
+- Go to the Contact Us page, enter a random name and email then type  <script>alert('Richard found the XSS!')</script> for the feedback. Next, go to Feedback section and the alert "Richard found the XSS!" will appear. 
 
-<img src="green-vuln2.gif">
+<img src="https://recordit.co/uiNp7MjSh5.gif">
 
 
 ## Red
