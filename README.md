@@ -60,9 +60,9 @@ Vulnerability #2: Cross-Site Request Forgery
 
 Description:
 
-- When I trying to edit the information after changing the value of csrd_token, red section is still able to make a change, while the other two sections show "Error: invalid request" after I changed its csrd_token.
+- In the Saleperson section, we can edit and update the changes even when we edit csrd_token value from the inspect element form. On the other hand, an invalid request error will display when we try to edit info from green and blue Globitek webpage.
 
-<img src="red-vuln2.gif">
+<img src="https://recordit.co/pMMsIbCo7c.gif">
 
 
 ## Notes
